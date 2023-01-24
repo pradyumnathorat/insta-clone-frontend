@@ -1,0 +1,37 @@
+.landing {
+    display: flex;
+    column-gap: 100px;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.button1 {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button2 {
+    border: 3px solid #006238;
+    border-radius: 16px;
+    opacity: 1;
+    width: 128px;
+    height: 64px;
+    
+}
+
+.xxx {
+    font: normal normal normal 64px/85px Palatino;
+letter-spacing: 0px;
+color: #006238;
+opacity: 1;
+width: 351px;
+height: 85px;
+}

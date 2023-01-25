@@ -14,7 +14,7 @@ const Postview = () => {
                 console.log(err);
             }
         })
-    },[]);
+    },[posts]);
     if (posts.length === 0) {
         return <h1>Loading...</h1>
     }

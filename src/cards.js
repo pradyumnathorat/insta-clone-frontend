@@ -15,7 +15,7 @@ const Card = ({post}) => {
                 </span>
             </section>
             <section className="card-img">
-                <img src={`http://localhost:3004/images/${post.image}`} alt="place" />
+                <img src={`https://insta-clone-app-uhy2.onrender.com/images/${post.image}`} alt="place" />
             </section>
             <section className="card-action" >
                 <span className="heart">

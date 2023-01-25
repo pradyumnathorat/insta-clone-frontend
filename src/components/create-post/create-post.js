@@ -23,7 +23,7 @@ const Post = () => {
             formdata.append('Description' , Description);
             formdata.append('image' , image);
             
-            fetch("http://localhost:3004/post" , { 
+            fetch("https://insta-clone-app-uhy2.onrender.com/post" , { 
                 method : "POST",
                 body : formdata
             })

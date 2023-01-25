@@ -7,7 +7,7 @@ const Postview = () => {
     const [posts , setposts ] = useState([]);
    
     useEffect(() => {
-        fetch("http://localhost:3004/all").then((res) => res.json()).then((data) =>{
+        fetch("https://insta-clone-app-uhy2.onrender.com/all").then((res) => res.json()).then((data) =>{
             setposts(data);
         }).catch((err) =>{
             if (err) {
